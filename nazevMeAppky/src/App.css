@@ -1,0 +1,42 @@
+body{
+    background-color: #242424;
+}
+.search{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 35px auto auto;
+    align-items: center;
+
+}
+.strategyName{
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 26px;
+}
+.searchInput{
+    margin-top: 25px;
+    width: 80%;
+    height: 20px;
+}
+.laneChooser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20%;
+    width: 60%;
+    margin-left:20% ;
+}
+.laneChooser button{
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 15px;
+}
+.laneChooser button:hover {
+    border-color: #646cff;
+}
