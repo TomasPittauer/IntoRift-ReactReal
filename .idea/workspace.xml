@@ -4,37 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c2fc17-e23a-4d23-9d54-2f50ce0eb559" name="Changes" comment="" />
+    <list default="true" id="79c2fc17-e23a-4d23-9d54-2f50ce0eb559" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nazevMeAppky/src/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/assets/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/lanePage/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hPGCjBobvffJLQy40HUxtRy1fI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pitta\IdeaProjects\IntoRift-ReactReal\nazevMeAppky\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/nazevMeAppky/package.json" />
@@ -60,7 +80,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717488174096</updated>
-      <workItem from="1717488175162" duration="657000" />
+      <workItem from="1717488175162" duration="2726000" />
+      <workItem from="1717677329019" duration="20000" />
+      <workItem from="1717687385806" duration="4040000" />
     </task>
     <servers />
   </component>

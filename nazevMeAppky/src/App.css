@@ -40,3 +40,44 @@ body{
 .laneChooser button:hover {
     border-color: #646cff;
 }
+
+.lanePage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.bigText{
+    font-weight: bold;
+    font-size: 62px;
+    color: #f9f9f9;
+}
+
+.strategyList {
+    list-style: none;
+    padding: 0;
+}
+
+.strategyItem {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.strategyItem h2 {
+    margin-top: 0;
+}
+
+.viewButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.viewButton:hover {
+    background-color: #0056b3;
+}
