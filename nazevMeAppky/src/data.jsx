@@ -272,6 +272,138 @@ export let data = [ {
         runes: " ",
         rating: 3.8,
         description: "Tank Fizz top focuses on survivability and utility. Strengths include high survivability and strong engage. Weaknesses are lower damage output and being vulnerable to poke."
+    },
+    {
+        "Id": 52,
+        "Name": "AD Lulu",
+        "Lane": "Bot",
+        "summonerSpell1": "Heal",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 3.8,
+        "description": "AD Lulu builds attack damage and attack speed items to enhance her basic attacks. Relies on her utility and polymorph ability to kite enemies and protect allies."
+    },
+    {
+        "Id": 53,
+        "Name": "Bruiser Veigar",
+        "Lane": "Top",
+        "summonerSpell1": "Teleport",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 4.0,
+        "description": "Bruiser Veigar builds a mix of AP and tanky items to survive in the top lane while still dealing significant burst damage with his abilities. Focuses on stacking his Q to increase AP."
+    },
+    {
+        "Id": 54,
+        "Name": "On-Hit Bard",
+        "Lane": "Bot",
+        "summonerSpell1": "Heal",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 3.5,
+        "description": "On-Hit Bard builds attack speed and on-hit items to enhance his basic attacks. Utilizes his mobility to roam the map and provide utility while still dealing damage."
+    },
+    {
+        "Id": 55,
+        "Name": "Tank Karthus",
+        "Lane": "Top",
+        "summonerSpell1": "Teleport",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 4.1,
+        "description": "Tank Karthus focuses on building tanky items to become a durable frontline presence. Relies on his ultimate to deal damage in teamfights while soaking up damage for the team."
+    },
+    {
+        "Id": 56,
+        "Name": "AD Nami",
+        "Lane": "Bot",
+        "summonerSpell1": "Heal",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 3.6,
+        "description": "AD Nami builds attack damage and attack speed items to enhance her basic attacks. Relies on her crowd control abilities to peel for allies while dealing sustained damage."
+    },
+    {
+        "Id": 57,
+        "Name": "AP Pantheon",
+        "Lane": "Mid",
+        "summonerSpell1": "Flash",
+        "summonerSpell2": "Ignite",
+        "build": " ",
+        "runes": " ",
+        "rating": 3.9,
+        "description": "AP Pantheon builds ability power and cooldown reduction items to enhance his burst damage with his abilities. Focuses on roaming and ganking to snowball the game."
+    },
+    {
+        "Id": 58,
+        "Name": "Bruiser Lulu",
+        "Lane": "Top",
+        "summonerSpell1": "Teleport",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 4.0,
+        "description": "Bruiser Lulu builds a mix of AP and tanky items to survive in the top lane while still providing utility with her abilities. Utilizes her polymorph and ultimate to disrupt enemy carries."
+    },
+    {
+        "Id": 59,
+        "Name": "AP Shaco Support",
+        "Lane": "Bot",
+        "summonerSpell1": "Flash",
+        "summonerSpell2": "Ignite",
+        "build": " ",
+        "runes": " ",
+        "rating": 4.2,
+        "description": "AP Shaco Support focuses on building ability power and cooldown reduction items to enhance his burst damage and utility. Relies on deception and box traps to control the lane."
+    },
+    {
+        "Id": 60,
+        "Name": "Tank Teemo",
+        "Lane": "Top",
+        "summonerSpell1": "Teleport",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 4.3,
+        "description": "Tank Teemo builds tanky items to become a durable frontline presence while still dealing damage with his poison. Utilizes his blind and shrooms for crowd control and zoning."
+    },
+    {
+        "Id": 61,
+        "Name": "AP Alistar",
+        "Lane": "Mid",
+        "summonerSpell1": "Flash",
+        "summonerSpell2": "Ignite",
+        "build": " ",
+        "runes": " ",
+        "rating": 4.0,
+        "description": "AP Alistar builds ability power and cooldown reduction items to enhance his burst damage and crowd control. Focuses on roaming and engaging fights with his ultimate."
+    },
+    {
+        "Id": 62,
+        "Name": "AD Blitzcrank",
+        "Lane": "Bot",
+        "summonerSpell1": "Heal",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 3.7,
+        "description": "AD Blitzcrank builds attack damage and cooldown reduction items to enhance his basic attacks and abilities. Relies on hooking enemies and bursting them down with his combo."
+    },
+    {
+        "Id": 63,
+        "Name": "Bruiser Brand",
+        "Lane": "Top",
+        "summonerSpell1": "Teleport",
+        "summonerSpell2": "Flash",
+        "build": " ",
+        "runes": " ",
+        "rating": 3.9,
+        "description": "Bruiser Brand builds a mix of AP and tanky items to survive in the top lane while still dealing damage with his abilities. Utilizes his passive to apply % health damage."
     }
 
 ]
