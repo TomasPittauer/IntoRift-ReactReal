@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c2fc17-e23a-4d23-9d54-2f50ce0eb559" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nazevMeAppky/src/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/assets/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/data.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/lanePage/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +78,33 @@
       <updated>1717488174096</updated>
       <workItem from="1717488175162" duration="2726000" />
       <workItem from="1717677329019" duration="20000" />
-      <workItem from="1717687385806" duration="4040000" />
+      <workItem from="1717687385806" duration="4190000" />
+      <workItem from="1717930972427" duration="2016000" />
     </task>
+    <task id="LOCAL-00001" summary="aaaa">
+      <option name="closed" value="true" />
+      <created>1717691506330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717691506330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="aaaa">
+      <option name="closed" value="true" />
+      <created>1717691628225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717691628225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaa" />
   </component>
 </project>

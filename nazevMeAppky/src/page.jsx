@@ -11,9 +11,15 @@ function LanePage() {
     function handleClick(strategyId) {
         window.location.href = `/strategy/${strategyId}`;
     }
+    function goBack() {
+        window.location.href = `/`;
+    }
 
     return (
         <div className={"lanePage"}>
+            <Link className={"goBackButton"} to={'/'}>
+                <button onClick={() => goBack()}>Go Back</button>
+            </Link>
             <h1 className={"bigText"}>{lane} Page</h1>
             <ul className="strategyList">
                 {filteredData.length > 0 ? (
