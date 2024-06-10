@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c2fc17-e23a-4d23-9d54-2f50ce0eb559" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,7 @@
       <workItem from="1717687385806" duration="4190000" />
       <workItem from="1717930972427" duration="2068000" />
       <workItem from="1718020643979" duration="2250000" />
+      <workItem from="1718032497903" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <option name="closed" value="true" />

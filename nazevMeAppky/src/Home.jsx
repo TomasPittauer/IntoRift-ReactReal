@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { data } from './data';
-import { Link } from 'react-router-dom';
 import './App.css';
 
-function Home({ favourites, addFavourite }) {
+function Home({}) {
     const [searchInput, setSearchInput] = useState('');
     const [filteredData, setFilteredData] = useState([]);
     const [showFavourites, setShowFavourites] = useState(false);
+    const [favourites, setFavourites] = useState(() => {
+        const savedFavourites = localStorage.getItem('favourites');
+        return savedFavourites ? JSON.parse(savedFavourites) : [];
+    });
 
     useEffect(() => {
         if (searchInput.length >= 3) {
@@ -31,8 +34,12 @@ function Home({ favourites, addFavourite }) {
     function toggleFavourites() {
         setShowFavourites(!showFavourites);
     }
-    function handleClickStrategy(strategyId) {
-        window.location.href = `/strategy/${strategyId}`;
+
+    function goToStrategy(id) {
+        window.location.href = `/strategy/${id}`;
+    }
+    function removeFavourite(id) {
+        setFavourites(prevFavourites => prevFavourites.filter(fav => fav.Id !== id));
     }
 
     return (
@@ -43,9 +50,8 @@ function Home({ favourites, addFavourite }) {
                     <div className="favourites">
                         {favourites.map(fav => (
                             <div key={fav.Id}>
-                                <Link to={`/strategy/${fav.Id}`}>
-                                    <button onClick={() => handleClickStrategy(fav.Id)}>{fav.Name}</button>
-                                </Link>
+                                <button onClick={() => goToStrategy(fav.Id)}>{fav.Name}</button>
+                                <button className="delete" onClick={() => removeFavourite(fav.Id)}>Delete</button>
                             </div>
                         ))}
                     </div>
@@ -67,9 +73,7 @@ function Home({ favourites, addFavourite }) {
                         <div key={strategy.Id} className="strategyItem">
                             <h2>{strategy.Name}</h2>
                             <p>{strategy.description}</p>
-                            <Link to={`/strategy/${strategy.Id}`}>
-                                <button>View Details</button>
-                            </Link>
+                            <button onClick={() => goToStrategy(strategy.Id)}>View Details</button>
                         </div>
                     ))
                 )}

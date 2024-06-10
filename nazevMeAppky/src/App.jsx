@@ -7,13 +7,11 @@ import Strategy from './strategy.jsx';
 
 function App() {
     const [favourites, setFavourites] = useState(() => {
-        // Retrieve favourites from localStorage if available
         const savedFavourites = localStorage.getItem('favourites');
         return savedFavourites ? JSON.parse(savedFavourites) : [];
     });
 
     useEffect(() => {
-        // Save favourites to localStorage whenever they change
         localStorage.setItem('favourites', JSON.stringify(favourites));
     }, [favourites]);
 
