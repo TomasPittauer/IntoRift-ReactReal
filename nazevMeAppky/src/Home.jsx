@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { data } from './data';
+import { Link } from 'react-router-dom';
 import './App.css';
 
-function Home() {
+function Home({ favourites, addFavourite }) {
     const [searchInput, setSearchInput] = useState('');
     const [filteredData, setFilteredData] = useState([]);
+    const [showFavourites, setShowFavourites] = useState(false);
 
     useEffect(() => {
         if (searchInput.length >= 3) {
@@ -26,11 +28,28 @@ function Home() {
         setSearchInput(event.target.value);
     }
 
+    function toggleFavourites() {
+        setShowFavourites(!showFavourites);
+    }
+    function handleClickStrategy(strategyId) {
+        window.location.href = `/strategy/${strategyId}`;
+    }
+
     return (
         <>
-            <div className={"favouriteBox"}>
-                <button>Favourites numberOfFavourites</button>
-                <div className={"favourites"}></div> {/* After clicking the button the favourite will show here*/}
+            <div className="favouriteBox">
+                <button onClick={toggleFavourites}>Favourites {favourites.length}</button>
+                {showFavourites && (
+                    <div className="favourites">
+                        {favourites.map(fav => (
+                            <div key={fav.Id}>
+                                <Link to={`/strategy/${fav.Id}`}>
+                                    <button onClick={() => handleClickStrategy(fav.Id)}>{fav.Name}</button>
+                                </Link>
+                            </div>
+                        ))}
+                    </div>
+                )}
             </div>
             <div className="search">
                 <div className="strategyName">Search for strategy name</div>
@@ -48,6 +67,9 @@ function Home() {
                         <div key={strategy.Id} className="strategyItem">
                             <h2>{strategy.Name}</h2>
                             <p>{strategy.description}</p>
+                            <Link to={`/strategy/${strategy.Id}`}>
+                                <button>View Details</button>
+                            </Link>
                         </div>
                     ))
                 )}
