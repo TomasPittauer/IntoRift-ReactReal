@@ -13,7 +13,7 @@ body{
 .strategyName{
     color: #f9f9f9;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 40px;
 }
 .searchInput{
     margin-top: 25px;
@@ -49,8 +49,9 @@ body{
 .bigText{
     font-weight: bold;
     font-size: 62px;
-    color: #f9f9f9;
+    color: cornflowerblue;
 }
+
 
 .strategyList {
     list-style: none;
@@ -62,17 +63,19 @@ body{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #1a1a1a;
+    color: #f9f9f9;
 }
 
 .strategyItem h2 {
     margin-top: 0;
 }
 
-.viewButton {
+.viewButton button {
     background-color: #007bff;
     color: #fff;
     border: none;
+    padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -80,4 +83,79 @@ body{
 
 .viewButton:hover {
     background-color: #0056b3;
+}
+.favouriteBox{
+    position: absolute;
+    column-gap: 15px;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 15px;
+}
+.favouriteBox button{
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 15px;
+}
+.delete{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.goBackButton button{
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #f9f9f9;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 15px;
+    position: absolute;
+}
+.strategyName{
+    color: cornflowerblue;
+    text-align: center;
+}
+.role{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #f9f9f9;
+}
+.description{
+    text-align: center;
+    justify-content: right;
+    color: #f9f9f9;
+    font-size: 18px;
+}
+.infoBox{
+    border: 1px solid black;
+    width: 60%;
+    margin-left: 20%;
+    color: #f9f9f9;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rating{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: cornflowerblue;
+}
+.addFavouriteButton{
+    margin-left: 675px;
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #487906;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 15px;
+    position: absolute;
 }

@@ -16,11 +16,15 @@ function Strategy({ match, addFavourite }) {
             <Link className={"goBackButton"} to={'/'}>
                 <button onClick={() => handleClick()}>Go Back</button>
             </Link>
-            <h2>{strategy.Name}</h2>
-            <p>Description: {strategy.description}</p>
-            <p>Summoner Spells: {strategy.summonerSpell1}, {strategy.summonerSpell2}</p>
-            <p>Rating: {strategy.rating}</p>
-            <p>Build: {strategy.build}</p>
+            <h2 className={"strategyName"}>{strategy.Name}</h2>
+            <p className={"role"}>{strategy.Lane}</p>
+            <p className={"description"}>Description: {strategy.description}</p>
+            <div className={"infoBox"}>
+                <p className={"summonerSpells"}>Summoner Spells: {strategy.summonerSpell1}, {strategy.summonerSpell2}</p>
+                <p className={"build"}>Build: {strategy.build}</p>
+            <p className={"runes"}>Runes: {strategy.runes}</p>
+            </div>
+            <p className={"rating"}>Rating: {strategy.rating} / 5</p>
             <button className={"addFavouriteButton"} onClick={() => addFavourite(strategy)}>Add to Favourite</button>
         </div>
     );

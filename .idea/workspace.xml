@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c2fc17-e23a-4d23-9d54-2f50ce0eb559" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pitta\IdeaProjects\IntoRift-ReactReal\nazevMeAppky\src\img" />
       <recent name="C:\Users\pitta\IdeaProjects\IntoRift-ReactReal\nazevMeAppky\src" />
     </key>
   </component>
@@ -80,7 +81,8 @@
       <workItem from="1717687385806" duration="4190000" />
       <workItem from="1717930972427" duration="2068000" />
       <workItem from="1718020643979" duration="2250000" />
-      <workItem from="1718032497903" duration="1566000" />
+      <workItem from="1718032497903" duration="1699000" />
+      <workItem from="1718086858943" duration="2783000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <option name="closed" value="true" />
@@ -106,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717933024762</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aaaa">
+      <option name="closed" value="true" />
+      <created>1718034669029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718034669029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

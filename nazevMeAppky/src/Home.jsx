@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { data } from './data';
 import './App.css';
 
-function Home({}) {
+function Home() {
     const [searchInput, setSearchInput] = useState('');
     const [filteredData, setFilteredData] = useState([]);
     const [showFavourites, setShowFavourites] = useState(false);
@@ -39,7 +39,11 @@ function Home({}) {
         window.location.href = `/strategy/${id}`;
     }
     function removeFavourite(id) {
-        setFavourites(prevFavourites => prevFavourites.filter(fav => fav.Id !== id));
+        setFavourites(prevFavourites => {
+            const updatedFavourites = prevFavourites.filter(fav => fav.Id !== id);
+            localStorage.setItem('favourites', JSON.stringify(updatedFavourites));
+            return updatedFavourites;
+        });
     }
 
     return (
