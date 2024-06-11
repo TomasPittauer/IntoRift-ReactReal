@@ -77,7 +77,7 @@ function Home() {
                         <div key={strategy.Id} className="strategyItem">
                             <h2>{strategy.Name}</h2>
                             <p>{strategy.description}</p>
-                            <button onClick={() => goToStrategy(strategy.Id)}>View Details</button>
+                            <button className="viewButton" onClick={() => goToStrategy(strategy.Id)}>View Details</button>
                         </div>
                     ))
                 )}

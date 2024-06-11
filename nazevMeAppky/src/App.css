@@ -71,6 +71,16 @@ body{
     margin-top: 0;
 }
 
+.viewButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .viewButton button {
     background-color: #007bff;
     color: #fff;
@@ -102,6 +112,9 @@ body{
     padding: 8px;
     border-radius: 15px;
 }
+.favouriteBox button:hover{
+    border: #007bff 1px solid;
+}
 .delete{
     margin-top: 15px;
     margin-left: 10px;
@@ -112,9 +125,12 @@ body{
     color: #f9f9f9;
     font-size: 15px;
     font-weight: bold;
-    padding: 4px;
+    padding: 7px;
     border-radius: 15px;
     position: absolute;
+}
+.goBackButton button:hover{
+    border: #007bff 1px solid;
 }
 .strategyName{
     color: cornflowerblue;
@@ -130,7 +146,8 @@ body{
     text-align: center;
     justify-content: right;
     color: #f9f9f9;
-    font-size: 18px;
+    font-size: 20px;
+    padding-bottom: 35px;
 }
 .infoBox{
     border: 1px solid black;
@@ -141,6 +158,7 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: space-evenly;
+    font-size: 22px;
 }
 .rating{
     text-align: center;
@@ -158,4 +176,22 @@ body{
     padding: 6px;
     border-radius: 15px;
     position: absolute;
+}
+.addFavouriteButton:hover{
+    border: #007bff 1px solid;
+}
+.summonerSpellsBig{
+    font-size: 32px;
+    font-weight: bold;
+}
+.buildBig{
+    font-size: 32px;
+    font-weight: bold;
+}
+.runesBig{
+    font-size: 32px;
+    font-weight: bold;
+}
+.strategy-details{
+    padding-bottom: 50px;
 }
