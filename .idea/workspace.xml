@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79c2fc17-e23a-4d23-9d54-2f50ce0eb559" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nazevMeAppky/src/strategy.jsx" afterDir="false" />
     </list>
@@ -83,7 +82,9 @@
       <workItem from="1718020643979" duration="2250000" />
       <workItem from="1718032497903" duration="1699000" />
       <workItem from="1718086858943" duration="4037000" />
-      <workItem from="1718118691137" duration="1248000" />
+      <workItem from="1718118691137" duration="1419000" />
+      <workItem from="1718273408446" duration="598000" />
+      <workItem from="1718692797452" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <option name="closed" value="true" />
@@ -125,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718089709209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aaaa">
+      <option name="closed" value="true" />
+      <created>1718119962679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718119962679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

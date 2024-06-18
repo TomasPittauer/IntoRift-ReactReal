@@ -25,7 +25,7 @@ function Strategy({ match, addFavourite }) {
                 <p className={"buildBig"}>Build:</p>
                 <p className={"build"}>{strategy.build}</p>
                 <p className={"runesBig"}>Runes:</p>
-            <p className={"runes"}>Runes: {strategy.runes}</p>
+            <p className={"runes"}>{strategy.runes}</p>
             </div>
             <p className={"rating"}>Rating: {strategy.rating} / 5</p>
             <button className={"addFavouriteButton"} onClick={() => addFavourite(strategy)}>Add to Favourite</button>

@@ -63,13 +63,7 @@ function Home() {
             </div>
             <div className="search">
                 <div className="strategyName">Search for strategy name</div>
-                <input
-                    className="searchInput"
-                    placeholder="Search"
-                    type="text"
-                    value={searchInput}
-                    onChange={handleInputChange}
-                />
+                <input className="searchInput" placeholder="Search" type="text" value={searchInput} onChange={handleInputChange}/>
             </div>
             <div className="searchOutput">
                 {filteredData.length > 0 && searchInput.length >= 3 && (
